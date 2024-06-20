@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 미디어 쿼리 추가 */
+@media screen and (min-width: 768px) {
+  body {
+    width: 375px; /* 모바일 뷰포트 너비 */
+    margin: 0 auto; /* 가운데 정렬 */
+    border: 1px solid #ccc; /* 선택사항: 모바일 디바이스와 유사한 효과를 위해 테두리 추가 */
+  }
+}
